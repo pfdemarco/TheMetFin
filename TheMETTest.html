@@ -23,6 +23,11 @@
       border-radius: 10px;
     }
     
+    #txt-area {
+    /* existing styles... */
+    color: white;
+    }
+
     #text-area {
       position: absolute;
       bottom: 0;
@@ -31,11 +36,14 @@
       text-align: center;
       font-size: 18px;
       font-weight: bold;
-      color: white;
+      color: rgb(255, 255, 255);
       background-color: rgba(0, 0, 0, 0.5);
       padding: 10px;
     }
-    #body {background-color: rgba(0, 0, 255, 0.8);} 
+    body {background-color: rgb(0, 0, 0);
+          color: aliceblue;
+    } 
+
   </style>
 </head>
 
@@ -45,6 +53,7 @@
     <H2>Press l or left arrow to decrement. Press r or right arrow to increment. Enter index 1-999999</H2>
     <!-- Text boxes to display the values -->
     <div>
+        <label for="index-input">Enter Object ID:</label>
         <input type="text" id="index-input" placeholder="Enter index">
         <button type="button" onclick="usetxt()">Run</button>
     </div>

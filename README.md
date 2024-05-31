@@ -22,3 +22,6 @@ https://collectionapi.metmuseum.org/public/collection/v1/objects/" + index;
 
 jQuery goody bag
 https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
